@@ -17,20 +17,20 @@ function overlyExcited (theWordArray) {
       Write a `for` loop that iterates over the array argument and
       outputs the words. Use a conditional to add an exclamation point after every third word.
      */
-    sentence = ``
+    sentence = ``;
     for(i = 0; i < theWordArray.length; i++){
       if(((i+1)%3) == 0 && i > 0){
-        sentence = `${sentence}  ${theWordArray[i]}!`
-      console.log(sentence)
+        sentence = `${sentence}  ${theWordArray[i]}!`;
+      console.log(sentence);
       } else {
-      sentence = `${sentence}  ${theWordArray[i]}`
-      console.log(sentence)
+      sentence = `${sentence}  ${theWordArray[i]}`;
+      console.log(sentence);
       }
     }
 }
 
 // Invoke the function and pass in the array
-overlyExcited(sentenceBio)
+overlyExcited(sentenceBio);
 
 
 
